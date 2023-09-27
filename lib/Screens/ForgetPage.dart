@@ -22,24 +22,28 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
         flexibleSpace: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [Color(0xff0B69FF), Color(0xff418AFF)],
-              begin: Alignment.centerLeft,
-              end: Alignment.centerRight,
-            ),
+            begin: Alignment.centerLeft,
+            end: Alignment.topRight,
+            colors: [
+              Color(0xfffa4b4b),
+              Color(0xffFF6565),
+            ],
+          ),
           ),
         ),
       ),
       body: Stack(children: [
         Container(
           decoration: BoxDecoration(
-              gradient: LinearGradient(
-            begin: Alignment.centerLeft,
-            end: Alignment.centerRight,
-            colors: [
-              Color(0xff0B69FF),
-              Color(0xff418AFF),
-            ],
-          )),
+            gradient: LinearGradient(
+              begin: Alignment.centerLeft,
+              end: Alignment.topRight,
+              colors: [
+                Color(0xffFF2D2D),
+                Color(0xffFF6565),
+              ],
+            ),
+          ),
         ),
         Container(
           margin: EdgeInsets.only(top: 220),
@@ -67,7 +71,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                         fontFamily: "Poppins",
                         fontWeight: FontWeight.w800,
                         fontSize: 40,
-                        color: Color(0xff468DFF)),
+                        color: Color(0xff000000)),
                   ),
                 ),
                 SizedBox(
@@ -81,7 +85,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                         fontFamily: "Poppins",
                         fontWeight: FontWeight.bold,
                         fontSize: 20,
-                        color: Color(0xff468DFF)),
+                        color: Color(0xff000000)),
                   ),
                 ),
                 SizedBox(
@@ -93,7 +97,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                     height: 60,
                     width: 340,
                     decoration: BoxDecoration(
-                      color: Color(0xffE7F0FF),
+                      color: Color(0xfffce5e4),
                       borderRadius: BorderRadius.circular(20.0),
                     ),
                     child: Row(
@@ -103,7 +107,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                           padding: const EdgeInsets.symmetric(horizontal: 20),
                           child: Icon(
                             CupertinoIcons.mail,
-                            color: Color(0xff468DFF),
+                            color: Color(0xffFF2D2D),
                           ),
                         ),
                         Expanded(
@@ -114,7 +118,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                               hintStyle: TextStyle(
                                 fontFamily: "Poppins",
                                 color: Color(
-                                    0xff468DFF), // Change this color to your desired hint text color
+                                    0xffFF2D2D), // Change this color to your desired hint text color
                               ),
                               border: InputBorder.none,
                             ),
@@ -135,10 +139,14 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                     height: 52.0,
                     width: 200,
                     decoration: BoxDecoration(
-                        gradient: LinearGradient(colors: [
-                          Color(0xff0B69FF),
-                          Color(0xff5999FF),
-                        ]),
+                        gradient: LinearGradient(
+                          begin: Alignment.centerLeft,
+                          end: Alignment.topRight,
+                          colors: [
+                            Color(0xffFF2D2D),
+                            Color(0xffFF6565),
+                          ],
+                        ),
                         borderRadius: BorderRadius.circular(21)),
                     child: ElevatedButton(
                       onPressed: () {},

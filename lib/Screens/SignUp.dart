@@ -21,7 +21,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Color(0xFFffffff),
-        leading: BackButton(color: Color(0xff418AFF)),
+        leading: BackButton(color: Color(0xffFF2D2D)),
       ),
       body: Stack(
         children: [
@@ -35,10 +35,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 begin: Alignment.centerLeft,
-                end: Alignment.centerRight,
+                end: Alignment.topRight,
                 colors: [
-                  Color(0xff0B69FF),
-                  Color(0xff418AFF),
+                  Color(0xffFF2D2D),
+                  Color(0xffFF6565),
                 ],
               ),
               borderRadius: BorderRadius.only(
@@ -97,7 +97,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           padding: const EdgeInsets.symmetric(horizontal: 20),
                           child: Icon(
                             CupertinoIcons.mail,
-                            color: Color(0xff468DFF),
+                            color: Color(0xffFF6565),
                           ),
                         ),
                         Expanded(
@@ -108,7 +108,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               hintStyle: TextStyle(
                                 fontFamily: "Poppins",
                                 color: Color(
-                                    0xff468DFF), // Change this color to your desired hint text color
+                                    0xffFF6565), // Change this color to your desired hint text color
                               ),
                               border: InputBorder.none,
                             ),
@@ -154,7 +154,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           padding: const EdgeInsets.symmetric(horizontal: 20),
                           child: Icon(
                             CupertinoIcons.mail,
-                            color: Color(0xff468DFF),
+                            color: Color(0xffFF6565),
                           ),
                         ),
                         Expanded(
@@ -165,7 +165,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               hintStyle: TextStyle(
                                 fontFamily: "Poppins",
                                 color: Color(
-                                    0xff468DFF), // Change this color to your desired hint text color
+                                    0xffFF6565), // Change this color to your desired hint text color
                               ),
                               border: InputBorder.none,
                             ),
@@ -211,7 +211,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           padding: const EdgeInsets.symmetric(horizontal: 20),
                           child: Icon(
                             CupertinoIcons.lock,
-                            color: Color(0xff468DFF),
+                            color: Color(0xffFF6565),
                           ),
                         ),
                         Expanded(
@@ -222,7 +222,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               hintStyle: TextStyle(
                                 fontFamily: "Poppins",
                                 color: Color(
-                                    0xff468DFF), // Change this color to your desired hint text color
+                                    0xffFF6565), // Change this color to your desired hint text color
                               ),
                               border: InputBorder.none,
                             ),
@@ -254,7 +254,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       child: Text(
                         'Sign Up',
                         style: TextStyle(
-                            color: Color(0xff468DFF),
+                            color: Color(0xffFF6565),
                             fontFamily: "Poppins",
                             fontSize: 16,
                             fontWeight: FontWeight.bold),

@@ -41,9 +41,12 @@ class _FormScreenPageState extends State<FormScreenPage> {
           flexibleSpace: Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(
-                colors: [Color(0xff0B69FF), Color(0xff418AFF)],
                 begin: Alignment.centerLeft,
-                end: Alignment.centerRight,
+                end: Alignment.topRight,
+                colors: [
+                  Color(0xfffa4b4b),
+                  Color(0xffFF6565),
+                ],
               ),
             ),
           ),
@@ -52,14 +55,15 @@ class _FormScreenPageState extends State<FormScreenPage> {
           children: [
             Container(
               decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                begin: Alignment.centerLeft,
-                end: Alignment.centerRight,
-                colors: [
-                  Color(0xff0B69FF),
-                  Color(0xff418AFF),
-                ],
-              )),
+                gradient: LinearGradient(
+                  begin: Alignment.centerLeft,
+                  end: Alignment.topRight,
+                  colors: [
+                    Color(0xffFF2D2D),
+                    Color(0xffFF6565),
+                  ],
+                ),
+              ),
             ),
             SingleChildScrollView(
               child: Column(
@@ -253,11 +257,11 @@ class _FormScreenPageState extends State<FormScreenPage> {
                                             Expanded(
                                               child: Text(
                                                 "Select Type", // You can customize the text here
-                                                style: TextStyle(fontSize: 14.0,color: Color(0xff0B69FF)),
+                                                style: TextStyle(fontSize: 14.0,color: Color(0xffFF2D2D)),
                                               ),
                                             ),
                                             Icon(Icons.beach_access,
-                                                size: 20.0,color: Color(0xff0B69FF),),
+                                                size: 20.0,color: Color(0xffFF2D2D),),
                                           ],
                                         ),
                                       ),
@@ -326,11 +330,11 @@ class _FormScreenPageState extends State<FormScreenPage> {
                                         Expanded(
                                           child: Text(
                                             "Select Colour", // You can customize the text here
-                                            style: TextStyle(fontSize: 14.0,color: Color(0xff0B69FF)),
+                                            style: TextStyle(fontSize: 14.0,color: Color(0xffFF2D2D)),
                                           ),
                                         ),
                                         Icon(Icons.beach_access,
-                                          size: 20.0,color: Color(0xff0B69FF),),
+                                          size: 20.0,color: Color(0xffFF2D2D),),
                                       ],
                                     ),
                                   ),
@@ -505,11 +509,11 @@ class _FormScreenPageState extends State<FormScreenPage> {
                                             Expanded(
                                               child: Text(
                                                 "Select Date", // You can customize the text here
-                                                style: TextStyle(fontSize: 14.0,color: Color(0xff0B69FF)),
+                                                style: TextStyle(fontSize: 14.0,color: Color(0xffFF2D2D)),
                                               ),
                                             ),
                                             Icon(Icons.calendar_month_rounded,
-                                              size: 20.0,color: Color(0xff0B69FF),),
+                                              size: 20.0,color: Color(0xffFF2D2D),),
                                           ],
                                         ),
                                       ),
@@ -578,11 +582,11 @@ class _FormScreenPageState extends State<FormScreenPage> {
                                         Expanded(
                                           child: Text(
                                             "Select Time", // You can customize the text here
-                                            style: TextStyle(fontSize: 14.0,color: Color(0xff0B69FF)),
+                                            style: TextStyle(fontSize: 14.0,color: Color(0xffFF2D2D)),
                                           ),
                                         ),
                                         Icon(Icons.timer_outlined,
-                                          size: 20.0,color: Color(0xff0B69FF),),
+                                          size: 20.0,color: Color(0xffFF2D2D),),
                                       ],
                                     ),
                                   ),

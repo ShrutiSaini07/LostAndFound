@@ -20,9 +20,12 @@ class _NavBarScreenState extends State<NavBarScreen> {
           Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(
-                colors: [Color(0xff0B69FF), Color(0xff418AFF)],
-                begin: Alignment.bottomCenter,
-                end: Alignment.topCenter,
+                begin: Alignment.centerLeft,
+                end: Alignment.topRight,
+                colors: [
+                  Color(0xffFF2D2D),
+                  Color(0xffFF6565),
+                ],
               ),
             ),
           ),
@@ -92,7 +95,7 @@ class _NavBarScreenState extends State<NavBarScreen> {
                       child: Text(
                         'LOG OUT',
                         style: TextStyle(
-                            color: Color(0xff468DFF),
+                            color: Color(0xffFF6565),
                             fontFamily: "Poppins",
                             fontSize: 14,
                             fontWeight: FontWeight.bold),
